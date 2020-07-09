@@ -97,7 +97,7 @@ def fill_between_x(x1, x2, y, color, alpha):
     
     return p
 
-def two_plus_one(x1, y1, x23, y2, y3, z2, z3, ey2, ey3, lx1, ly1, ly2, ly3, lz2, lz3, number_of_profiles, m2=None, m3=None, strip_pts=1, show_same=False, paint_rho=False, paint_wall=False, sharex=False, sharey=False):
+def two_plus_one(x1, y1, x23, y2, y3, z2, z3, ey2=None, ey3=None, number_of_profiles=1, lx1='', ly1='', ly2='', ly3='', lz2='', lz3='', m2=None, m3=None, strip_pts=1, show_same=False, paint_rho=False, paint_wall=False, sharex=False, sharey=False):
     
     
     def lb(x, i):
@@ -195,12 +195,12 @@ def two_plus_one(x1, y1, x23, y2, y3, z2, z3, ey2, ey3, lx1, ly1, ly2, ly3, lz2,
                             labels = ["%.3lf s" % x23[i] for i in draw],
                             loc='center left', bbox_to_anchor=(1, 0, 1, 1))
 
-        ax1.set_xlabel(lx1)
-        ax2.set_xlabel(ly2)
-        if not show_same: ax3.set_xlabel(ly3)
-        
-        ax1.set_ylabel(ly1)
-        ax2.set_ylabel(lz2)
+    ax1.set_xlabel(lx1)
+    ax2.set_xlabel(ly2)
+    if not show_same: ax3.set_xlabel(ly3)
+
+    ax1.set_ylabel(ly1)
+    ax2.set_ylabel(lz2)
               
 
     def update(**kwargs):
@@ -213,14 +213,17 @@ def two_plus_one(x1, y1, x23, y2, y3, z2, z3, ey2, ey3, lx1, ly1, ly2, ly3, lz2,
             if show_std:
                 p2[k].set_data(y2[i] - ey2[i], y2[i] + ey2[i], z2[i])
                 p3[k].set_data(y3[i] - ey3[i], y3[i] + ey3[i], z3[i])
-                
-            stamp[k].set_xy(
-            [[lb(x23, i-N), 0.        ],
-             [lb(x23, i-N), 1.        ],
-             [ub(x23, i+N), 1.        ],
-             [ub(x23, i+N), 0.        ],
-             [lb(x23, i-N), 0.        ]]
-            )
+               
+            if N==0:
+                stamp[k].set_xdata(2*[x23[i]])
+            else:
+                stamp[k].set_xy(
+                [[lb(x23, i-N), 0.        ],
+                 [lb(x23, i-N), 1.        ],
+                 [ub(x23, i+N), 1.        ],
+                 [ub(x23, i+N), 0.        ],
+                 [lb(x23, i-N), 0.        ]]
+                )
 
             if show_wall:
                 w2[k].set_xdata(2*[m2[i]])
