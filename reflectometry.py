@@ -8,7 +8,7 @@ from matplotlib.lines import Line2D
 import ipywidgets as widgets
 from ipfnpytools.closest import closest
 
-def fetch(shot, dump=None, verbose=False):
+def fetch(shot, path=None, verbose=False):
     """Fetch density data from the RPS shotfile of the O-mode reflectometer
     
     Parameters
@@ -36,7 +36,7 @@ def fetch(shot, dump=None, verbose=False):
     
     # Fetching data ---------------------------------------------------
 
-    if dump is None:
+    if path is None:
 
         data = aug_read.many_signals(
             diagnostics=(["RPS"] * 2),
