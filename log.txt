@@ -1,0 +1,559 @@
+ERROR:root:Error calculating the running mean of[]
+Traceback (most recent call last):
+  File "divertor.py", line 122, in running_mean
+    return np.convolve(x, np.ones((pts,))/pts, mode=mode)
+  File "/mpcdf/soft/SLE_15/packages/x86_64/anaconda/2/2019.03/lib/python2.7/site-packages/numpy/core/numeric.py", line 1112, in convolve
+    raise ValueError('v cannot be empty')
+ValueError: v cannot be empty
+ERROR:root:Shotfile not available
+Traceback (most recent call last):
+  File "divertor.py", line 267, in plot_probe_trace
+    x = post_process(x, mean_pts)
+  File "divertor.py", line 139, in post_process
+    signal.data = running_mean(signal.data, mean_pts)
+  File "divertor.py", line 125, in running_mean
+    six.reraise(*sys.exc_info())
+  File "divertor.py", line 122, in running_mean
+    return np.convolve(x, np.ones((pts,))/pts, mode=mode)
+  File "/mpcdf/soft/SLE_15/packages/x86_64/anaconda/2/2019.03/lib/python2.7/site-packages/numpy/core/numeric.py", line 1112, in convolve
+    raise ValueError('v cannot be empty')
+ValueError: v cannot be empty
+ERROR:root:Error calculating the running mean of[]
+Traceback (most recent call last):
+  File "divertor.py", line 122, in running_mean
+    return np.convolve(x, np.ones((pts,))/pts, mode=mode)
+  File "/mpcdf/soft/SLE_15/packages/x86_64/anaconda/2/2019.03/lib/python2.7/site-packages/numpy/core/numeric.py", line 1112, in convolve
+    raise ValueError('v cannot be empty')
+ValueError: v cannot be empty
+ERROR:root:Shotfile not available
+Traceback (most recent call last):
+  File "divertor.py", line 267, in plot_probe_trace
+    x = post_process(x, mean_pts)
+  File "divertor.py", line 139, in post_process
+    signal.data = running_mean(signal.data, mean_pts)
+  File "divertor.py", line 125, in running_mean
+    six.reraise(*sys.exc_info())
+  File "divertor.py", line 122, in running_mean
+    return np.convolve(x, np.ones((pts,))/pts, mode=mode)
+  File "/mpcdf/soft/SLE_15/packages/x86_64/anaconda/2/2019.03/lib/python2.7/site-packages/numpy/core/numeric.py", line 1112, in convolve
+    raise ValueError('v cannot be empty')
+ValueError: v cannot be empty
+ERROR:root:Uncaught exception at the end of click handler
+Traceback (most recent call last):
+  File "divertor.py", line 309, in click
+    hide_probe(names[ind["ind"][0]])
+  File "divertor.py", line 238, in hide_probe
+    rgba_colors[i] = np.array((0, 0, 0, 0.5))
+NameError: global name 'i' is not defined
+ERROR:root:Uncaught exception at the end of click handler
+Traceback (most recent call last):
+  File "divertor.py", line 309, in click
+    hide_probe(names[ind["ind"][0]])
+  File "divertor.py", line 238, in hide_probe
+    rgba_colors[i] = np.array((0, 0, 0, 0.5))
+NameError: global name 'i' is not defined
+ERROR:root:Uncaught exception at the end of click handler
+Traceback (most recent call last):
+  File "divertor.py", line 309, in click
+    hide_probe(names[ind["ind"][0]])
+  File "divertor.py", line 238, in hide_probe
+    rgba_colors[i] = np.array((0, 0, 0, 0.5))
+NameError: global name 'i' is not defined
+ERROR:root:Uncaught exception at the end of click handler
+Traceback (most recent call last):
+  File "divertor.py", line 309, in click
+    hide_probe(names[ind["ind"][0]])
+  File "divertor.py", line 238, in hide_probe
+    rgba_colors[i] = np.array((0, 0, 0, 0.5))
+NameError: global name 'i' is not defined
+ERROR:root:Uncaught exception at the end of click handler
+Traceback (most recent call last):
+  File "divertor.py", line 309, in click
+    hide_probe(names[ind["ind"][0]])
+  File "divertor.py", line 238, in hide_probe
+    rgba_colors[i] = np.array((0, 0, 0, 0.5))
+NameError: global name 'i' is not defined
+ERROR:root:Error calculating the running mean of[]
+Traceback (most recent call last):
+  File "divertor.py", line 122, in running_mean
+    return np.convolve(x, np.ones((pts,))/pts, mode=mode)
+  File "/mpcdf/soft/SLE_15/packages/x86_64/anaconda/2/2019.03/lib/python2.7/site-packages/numpy/core/numeric.py", line 1112, in convolve
+    raise ValueError('v cannot be empty')
+ValueError: v cannot be empty
+ERROR:root:Shotfile not available
+Traceback (most recent call last):
+  File "divertor.py", line 269, in plot_probe_trace
+    x = post_process(x, mean_pts)
+  File "divertor.py", line 139, in post_process
+    signal.data = running_mean(signal.data, mean_pts)
+  File "divertor.py", line 125, in running_mean
+    six.reraise(*sys.exc_info())
+  File "divertor.py", line 122, in running_mean
+    return np.convolve(x, np.ones((pts,))/pts, mode=mode)
+  File "/mpcdf/soft/SLE_15/packages/x86_64/anaconda/2/2019.03/lib/python2.7/site-packages/numpy/core/numeric.py", line 1112, in convolve
+    raise ValueError('v cannot be empty')
+ValueError: v cannot be empty
+ERROR:root:Error calculating the running mean of[]
+Traceback (most recent call last):
+  File "divertor.py", line 122, in running_mean
+    return np.convolve(x, np.ones((pts,))/pts, mode=mode)
+  File "/mpcdf/soft/SLE_15/packages/x86_64/anaconda/2/2019.03/lib/python2.7/site-packages/numpy/core/numeric.py", line 1112, in convolve
+    raise ValueError('v cannot be empty')
+ValueError: v cannot be empty
+ERROR:root:Shotfile not available
+Traceback (most recent call last):
+  File "divertor.py", line 269, in plot_probe_trace
+    x = post_process(x, mean_pts)
+  File "divertor.py", line 139, in post_process
+    signal.data = running_mean(signal.data, mean_pts)
+  File "divertor.py", line 125, in running_mean
+    six.reraise(*sys.exc_info())
+  File "divertor.py", line 122, in running_mean
+    return np.convolve(x, np.ones((pts,))/pts, mode=mode)
+  File "/mpcdf/soft/SLE_15/packages/x86_64/anaconda/2/2019.03/lib/python2.7/site-packages/numpy/core/numeric.py", line 1112, in convolve
+    raise ValueError('v cannot be empty')
+ValueError: v cannot be empty
+ERROR:root:Error calculating the running mean of[]
+Traceback (most recent call last):
+  File "divertor.py", line 122, in running_mean
+    return np.convolve(x, np.ones((pts,))/pts, mode=mode)
+  File "/mpcdf/soft/SLE_15/packages/x86_64/anaconda/2/2019.03/lib/python2.7/site-packages/numpy/core/numeric.py", line 1112, in convolve
+    raise ValueError('v cannot be empty')
+ValueError: v cannot be empty
+ERROR:root:Shotfile not available
+Traceback (most recent call last):
+  File "divertor.py", line 269, in plot_probe_trace
+    x = post_process(x, mean_pts)
+  File "divertor.py", line 139, in post_process
+    signal.data = running_mean(signal.data, mean_pts)
+  File "divertor.py", line 125, in running_mean
+    six.reraise(*sys.exc_info())
+  File "divertor.py", line 122, in running_mean
+    return np.convolve(x, np.ones((pts,))/pts, mode=mode)
+  File "/mpcdf/soft/SLE_15/packages/x86_64/anaconda/2/2019.03/lib/python2.7/site-packages/numpy/core/numeric.py", line 1112, in convolve
+    raise ValueError('v cannot be empty')
+ValueError: v cannot be empty
+ERROR:root:Error calculating the running mean of[]
+Traceback (most recent call last):
+  File "divertor.py", line 122, in running_mean
+    return np.convolve(x, np.ones((pts,))/pts, mode=mode)
+  File "/mpcdf/soft/SLE_15/packages/x86_64/anaconda/2/2019.03/lib/python2.7/site-packages/numpy/core/numeric.py", line 1112, in convolve
+    raise ValueError('v cannot be empty')
+ValueError: v cannot be empty
+ERROR:root:Shotfile not available
+Traceback (most recent call last):
+  File "divertor.py", line 269, in plot_probe_trace
+    x = post_process(x, mean_pts)
+  File "divertor.py", line 139, in post_process
+    signal.data = running_mean(signal.data, mean_pts)
+  File "divertor.py", line 125, in running_mean
+    six.reraise(*sys.exc_info())
+  File "divertor.py", line 122, in running_mean
+    return np.convolve(x, np.ones((pts,))/pts, mode=mode)
+  File "/mpcdf/soft/SLE_15/packages/x86_64/anaconda/2/2019.03/lib/python2.7/site-packages/numpy/core/numeric.py", line 1112, in convolve
+    raise ValueError('v cannot be empty')
+ValueError: v cannot be empty
+ERROR:root:Shotfile not available
+Traceback (most recent call last):
+  File "divertor.py", line 268, in plot_probe_trace
+    x = get_langmuir_signal(shot, probe_name, signal_type=prefix)
+  File "divertor.py", line 214, in get_langmuir_signal
+    return get_jsat(shot, probe_name)
+  File "divertor.py", line 160, in get_jsat
+    gettem = getsig(shot, 'LSF', 'CH' + str(probe_jsat_channel[probe_name + '-ch']))
+KeyError: 'oa6-ch'
+ERROR:root:Error calculating the running mean of[]
+Traceback (most recent call last):
+  File "divertor.py", line 122, in running_mean
+    return np.convolve(x, np.ones((pts,))/pts, mode=mode)
+  File "/mpcdf/soft/SLE_15/packages/x86_64/anaconda/2/2019.03/lib/python2.7/site-packages/numpy/core/numeric.py", line 1112, in convolve
+    raise ValueError('v cannot be empty')
+ValueError: v cannot be empty
+ERROR:root:Shotfile not available
+Traceback (most recent call last):
+  File "divertor.py", line 269, in plot_probe_trace
+    x = post_process(x, mean_pts)
+  File "divertor.py", line 139, in post_process
+    signal.data = running_mean(signal.data, mean_pts)
+  File "divertor.py", line 125, in running_mean
+    six.reraise(*sys.exc_info())
+  File "divertor.py", line 122, in running_mean
+    return np.convolve(x, np.ones((pts,))/pts, mode=mode)
+  File "/mpcdf/soft/SLE_15/packages/x86_64/anaconda/2/2019.03/lib/python2.7/site-packages/numpy/core/numeric.py", line 1112, in convolve
+    raise ValueError('v cannot be empty')
+ValueError: v cannot be empty
+ERROR:root:Error calculating the running mean of[]
+Traceback (most recent call last):
+  File "divertor.py", line 122, in running_mean
+    return np.convolve(x, np.ones((pts,))/pts, mode=mode)
+  File "/mpcdf/soft/SLE_15/packages/x86_64/anaconda/2/2019.03/lib/python2.7/site-packages/numpy/core/numeric.py", line 1112, in convolve
+    raise ValueError('v cannot be empty')
+ValueError: v cannot be empty
+ERROR:root:Shotfile not available
+Traceback (most recent call last):
+  File "divertor.py", line 269, in plot_probe_trace
+    x = post_process(x, mean_pts)
+  File "divertor.py", line 139, in post_process
+    signal.data = running_mean(signal.data, mean_pts)
+  File "divertor.py", line 125, in running_mean
+    six.reraise(*sys.exc_info())
+  File "divertor.py", line 122, in running_mean
+    return np.convolve(x, np.ones((pts,))/pts, mode=mode)
+  File "/mpcdf/soft/SLE_15/packages/x86_64/anaconda/2/2019.03/lib/python2.7/site-packages/numpy/core/numeric.py", line 1112, in convolve
+    raise ValueError('v cannot be empty')
+ValueError: v cannot be empty
+ERROR:root:Shotfile not available
+Traceback (most recent call last):
+  File "divertor.py", line 268, in plot_probe_trace
+    x = get_langmuir_signal(shot, probe_name, signal_type=prefix)
+  File "divertor.py", line 214, in get_langmuir_signal
+    return get_jsat(shot, probe_name)
+  File "divertor.py", line 160, in get_jsat
+    gettem = getsig(shot, 'LSF', 'CH' + str(probe_jsat_channel[probe_name + '-ch']))
+KeyError: 'oa7-ch'
+ERROR:root:Error calculating the running mean of[]
+Traceback (most recent call last):
+  File "divertor.py", line 122, in running_mean
+    return np.convolve(x, np.ones((pts,))/pts, mode=mode)
+  File "/mpcdf/soft/SLE_15/packages/x86_64/anaconda/2/2019.03/lib/python2.7/site-packages/numpy/core/numeric.py", line 1112, in convolve
+    raise ValueError('v cannot be empty')
+ValueError: v cannot be empty
+ERROR:root:Shotfile not available
+Traceback (most recent call last):
+  File "divertor.py", line 269, in plot_probe_trace
+    x = post_process(x, mean_pts)
+  File "divertor.py", line 139, in post_process
+    signal.data = running_mean(signal.data, mean_pts)
+  File "divertor.py", line 125, in running_mean
+    six.reraise(*sys.exc_info())
+  File "divertor.py", line 122, in running_mean
+    return np.convolve(x, np.ones((pts,))/pts, mode=mode)
+  File "/mpcdf/soft/SLE_15/packages/x86_64/anaconda/2/2019.03/lib/python2.7/site-packages/numpy/core/numeric.py", line 1112, in convolve
+    raise ValueError('v cannot be empty')
+ValueError: v cannot be empty
+ERROR:root:Error calculating the running mean of[]
+Traceback (most recent call last):
+  File "divertor.py", line 122, in running_mean
+    return np.convolve(x, np.ones((pts,))/pts, mode=mode)
+  File "/mpcdf/soft/SLE_15/packages/x86_64/anaconda/2/2019.03/lib/python2.7/site-packages/numpy/core/numeric.py", line 1112, in convolve
+    raise ValueError('v cannot be empty')
+ValueError: v cannot be empty
+ERROR:root:Shotfile not available
+Traceback (most recent call last):
+  File "divertor.py", line 269, in plot_probe_trace
+    x = post_process(x, mean_pts)
+  File "divertor.py", line 139, in post_process
+    signal.data = running_mean(signal.data, mean_pts)
+  File "divertor.py", line 125, in running_mean
+    six.reraise(*sys.exc_info())
+  File "divertor.py", line 122, in running_mean
+    return np.convolve(x, np.ones((pts,))/pts, mode=mode)
+  File "/mpcdf/soft/SLE_15/packages/x86_64/anaconda/2/2019.03/lib/python2.7/site-packages/numpy/core/numeric.py", line 1112, in convolve
+    raise ValueError('v cannot be empty')
+ValueError: v cannot be empty
+ERROR:root:Shotfile not available
+Traceback (most recent call last):
+  File "divertor.py", line 268, in plot_probe_trace
+    x = get_langmuir_signal(shot, probe_name, signal_type=prefix)
+  File "divertor.py", line 214, in get_langmuir_signal
+    return get_jsat(shot, probe_name)
+  File "divertor.py", line 160, in get_jsat
+    gettem = getsig(shot, 'LSF', 'CH' + str(probe_jsat_channel[probe_name + '-ch']))
+KeyError: 'oa8-ch'
+ERROR:root:Error calculating the running mean of[]
+Traceback (most recent call last):
+  File "divertor.py", line 122, in running_mean
+    return np.convolve(x, np.ones((pts,))/pts, mode=mode)
+  File "/mpcdf/soft/SLE_15/packages/x86_64/anaconda/2/2019.03/lib/python2.7/site-packages/numpy/core/numeric.py", line 1112, in convolve
+    raise ValueError('v cannot be empty')
+ValueError: v cannot be empty
+ERROR:root:Shotfile not available
+Traceback (most recent call last):
+  File "divertor.py", line 269, in plot_probe_trace
+    x = post_process(x, mean_pts)
+  File "divertor.py", line 139, in post_process
+    signal.data = running_mean(signal.data, mean_pts)
+  File "divertor.py", line 125, in running_mean
+    six.reraise(*sys.exc_info())
+  File "divertor.py", line 122, in running_mean
+    return np.convolve(x, np.ones((pts,))/pts, mode=mode)
+  File "/mpcdf/soft/SLE_15/packages/x86_64/anaconda/2/2019.03/lib/python2.7/site-packages/numpy/core/numeric.py", line 1112, in convolve
+    raise ValueError('v cannot be empty')
+ValueError: v cannot be empty
+ERROR:root:Error calculating the running mean of[]
+Traceback (most recent call last):
+  File "divertor.py", line 122, in running_mean
+    return np.convolve(x, np.ones((pts,))/pts, mode=mode)
+  File "/mpcdf/soft/SLE_15/packages/x86_64/anaconda/2/2019.03/lib/python2.7/site-packages/numpy/core/numeric.py", line 1112, in convolve
+    raise ValueError('v cannot be empty')
+ValueError: v cannot be empty
+ERROR:root:Shotfile not available
+Traceback (most recent call last):
+  File "divertor.py", line 269, in plot_probe_trace
+    x = post_process(x, mean_pts)
+  File "divertor.py", line 139, in post_process
+    signal.data = running_mean(signal.data, mean_pts)
+  File "divertor.py", line 125, in running_mean
+    six.reraise(*sys.exc_info())
+  File "divertor.py", line 122, in running_mean
+    return np.convolve(x, np.ones((pts,))/pts, mode=mode)
+  File "/mpcdf/soft/SLE_15/packages/x86_64/anaconda/2/2019.03/lib/python2.7/site-packages/numpy/core/numeric.py", line 1112, in convolve
+    raise ValueError('v cannot be empty')
+ValueError: v cannot be empty
+ERROR:root:Shotfile not available
+Traceback (most recent call last):
+  File "divertor.py", line 277, in plot_probe_trace
+    probe_traces[prefix + "-" + probe_name] = _ax.plot(x.time, x.data, color=color)[0]
+  File "/mpcdf/soft/SLE_15/packages/x86_64/anaconda/2/2019.03/lib/python2.7/site-packages/matplotlib/__init__.py", line 1867, in inner
+    return func(ax, *args, **kwargs)
+  File "/mpcdf/soft/SLE_15/packages/x86_64/anaconda/2/2019.03/lib/python2.7/site-packages/matplotlib/axes/_axes.py", line 1528, in plot
+    for line in self._get_lines(*args, **kwargs):
+  File "/mpcdf/soft/SLE_15/packages/x86_64/anaconda/2/2019.03/lib/python2.7/site-packages/matplotlib/axes/_base.py", line 406, in _grab_next_args
+    for seg in self._plot_args(this, kwargs):
+  File "/mpcdf/soft/SLE_15/packages/x86_64/anaconda/2/2019.03/lib/python2.7/site-packages/matplotlib/axes/_base.py", line 383, in _plot_args
+    x, y = self._xy_from_xy(x, y)
+  File "/mpcdf/soft/SLE_15/packages/x86_64/anaconda/2/2019.03/lib/python2.7/site-packages/matplotlib/axes/_base.py", line 242, in _xy_from_xy
+    "have shapes {} and {}".format(x.shape, y.shape))
+ValueError: x and y must have same first dimension, but have shapes (329,) and (501,)
+ERROR:root:Shotfile not available
+Traceback (most recent call last):
+  File "divertor.py", line 277, in plot_probe_trace
+    probe_traces[prefix + "-" + probe_name] = _ax.plot(x.time, x.data, color=color)[0]
+  File "/mpcdf/soft/SLE_15/packages/x86_64/anaconda/2/2019.03/lib/python2.7/site-packages/matplotlib/__init__.py", line 1867, in inner
+    return func(ax, *args, **kwargs)
+  File "/mpcdf/soft/SLE_15/packages/x86_64/anaconda/2/2019.03/lib/python2.7/site-packages/matplotlib/axes/_axes.py", line 1528, in plot
+    for line in self._get_lines(*args, **kwargs):
+  File "/mpcdf/soft/SLE_15/packages/x86_64/anaconda/2/2019.03/lib/python2.7/site-packages/matplotlib/axes/_base.py", line 406, in _grab_next_args
+    for seg in self._plot_args(this, kwargs):
+  File "/mpcdf/soft/SLE_15/packages/x86_64/anaconda/2/2019.03/lib/python2.7/site-packages/matplotlib/axes/_base.py", line 383, in _plot_args
+    x, y = self._xy_from_xy(x, y)
+  File "/mpcdf/soft/SLE_15/packages/x86_64/anaconda/2/2019.03/lib/python2.7/site-packages/matplotlib/axes/_base.py", line 242, in _xy_from_xy
+    "have shapes {} and {}".format(x.shape, y.shape))
+ValueError: x and y must have same first dimension, but have shapes (329,) and (501,)
+ERROR:root:Error calculating the running mean of[]
+Traceback (most recent call last):
+  File "divertor.py", line 122, in running_mean
+    return np.convolve(x, np.ones((pts,))/pts, mode=mode)
+  File "/mpcdf/soft/SLE_15/packages/x86_64/anaconda/2/2019.03/lib/python2.7/site-packages/numpy/core/numeric.py", line 1112, in convolve
+    raise ValueError('v cannot be empty')
+ValueError: v cannot be empty
+ERROR:root:Shotfile not available
+Traceback (most recent call last):
+  File "divertor.py", line 270, in plot_probe_trace
+    x = post_process(x, mean_pts)
+  File "divertor.py", line 139, in post_process
+    signal.data = running_mean(signal.data, mean_pts)
+  File "divertor.py", line 125, in running_mean
+    six.reraise(*sys.exc_info())
+  File "divertor.py", line 122, in running_mean
+    return np.convolve(x, np.ones((pts,))/pts, mode=mode)
+  File "/mpcdf/soft/SLE_15/packages/x86_64/anaconda/2/2019.03/lib/python2.7/site-packages/numpy/core/numeric.py", line 1112, in convolve
+    raise ValueError('v cannot be empty')
+ValueError: v cannot be empty
+ERROR:root:Error calculating the running mean of[]
+Traceback (most recent call last):
+  File "divertor.py", line 122, in running_mean
+    return np.convolve(x, np.ones((pts,))/pts, mode=mode)
+  File "/mpcdf/soft/SLE_15/packages/x86_64/anaconda/2/2019.03/lib/python2.7/site-packages/numpy/core/numeric.py", line 1112, in convolve
+    raise ValueError('v cannot be empty')
+ValueError: v cannot be empty
+ERROR:root:Shotfile not available
+Traceback (most recent call last):
+  File "divertor.py", line 270, in plot_probe_trace
+    x = post_process(x, mean_pts)
+  File "divertor.py", line 139, in post_process
+    signal.data = running_mean(signal.data, mean_pts)
+  File "divertor.py", line 125, in running_mean
+    six.reraise(*sys.exc_info())
+  File "divertor.py", line 122, in running_mean
+    return np.convolve(x, np.ones((pts,))/pts, mode=mode)
+  File "/mpcdf/soft/SLE_15/packages/x86_64/anaconda/2/2019.03/lib/python2.7/site-packages/numpy/core/numeric.py", line 1112, in convolve
+    raise ValueError('v cannot be empty')
+ValueError: v cannot be empty
+ERROR:root:Shotfile not available
+Traceback (most recent call last):
+  File "divertor.py", line 269, in plot_probe_trace
+    x = get_langmuir_signal(shot, probe_name, signal_type=prefix)
+  File "divertor.py", line 215, in get_langmuir_signal
+    return get_jsat(shot, probe_name)
+  File "divertor.py", line 160, in get_jsat
+    gettem = getsig(shot, 'LSF', 'CH' + str(probe_jsat_channel[probe_name + '-ch']))
+KeyError: 'um6-ch'
+ERROR:root:Error calculating the running mean of[]
+Traceback (most recent call last):
+  File "divertor.py", line 122, in running_mean
+    return np.convolve(x, np.ones((pts,))/pts, mode=mode)
+  File "/mpcdf/soft/SLE_15/packages/x86_64/anaconda/2/2019.03/lib/python2.7/site-packages/numpy/core/numeric.py", line 1112, in convolve
+    raise ValueError('v cannot be empty')
+ValueError: v cannot be empty
+ERROR:root:Shotfile not available
+Traceback (most recent call last):
+  File "divertor.py", line 270, in plot_probe_trace
+    x = post_process(x, mean_pts)
+  File "divertor.py", line 139, in post_process
+    signal.data = running_mean(signal.data, mean_pts)
+  File "divertor.py", line 125, in running_mean
+    six.reraise(*sys.exc_info())
+  File "divertor.py", line 122, in running_mean
+    return np.convolve(x, np.ones((pts,))/pts, mode=mode)
+  File "/mpcdf/soft/SLE_15/packages/x86_64/anaconda/2/2019.03/lib/python2.7/site-packages/numpy/core/numeric.py", line 1112, in convolve
+    raise ValueError('v cannot be empty')
+ValueError: v cannot be empty
+ERROR:root:Error calculating the running mean of[]
+Traceback (most recent call last):
+  File "divertor.py", line 122, in running_mean
+    return np.convolve(x, np.ones((pts,))/pts, mode=mode)
+  File "/mpcdf/soft/SLE_15/packages/x86_64/anaconda/2/2019.03/lib/python2.7/site-packages/numpy/core/numeric.py", line 1112, in convolve
+    raise ValueError('v cannot be empty')
+ValueError: v cannot be empty
+ERROR:root:Shotfile not available
+Traceback (most recent call last):
+  File "divertor.py", line 270, in plot_probe_trace
+    x = post_process(x, mean_pts)
+  File "divertor.py", line 139, in post_process
+    signal.data = running_mean(signal.data, mean_pts)
+  File "divertor.py", line 125, in running_mean
+    six.reraise(*sys.exc_info())
+  File "divertor.py", line 122, in running_mean
+    return np.convolve(x, np.ones((pts,))/pts, mode=mode)
+  File "/mpcdf/soft/SLE_15/packages/x86_64/anaconda/2/2019.03/lib/python2.7/site-packages/numpy/core/numeric.py", line 1112, in convolve
+    raise ValueError('v cannot be empty')
+ValueError: v cannot be empty
+ERROR:root:Shotfile not available
+Traceback (most recent call last):
+  File "divertor.py", line 269, in plot_probe_trace
+    x = get_langmuir_signal(shot, probe_name, signal_type=prefix)
+  File "divertor.py", line 215, in get_langmuir_signal
+    return get_jsat(shot, probe_name)
+  File "divertor.py", line 160, in get_jsat
+    gettem = getsig(shot, 'LSF', 'CH' + str(probe_jsat_channel[probe_name + '-ch']))
+KeyError: 'um7-ch'
+ERROR:root:Shotfile not available
+Traceback (most recent call last):
+  File "divertor.py", line 278, in plot_probe_trace
+    probe_traces[prefix + "-" + probe_name] = _ax.plot(x.time, x.data, color=color)[0]
+  File "/mpcdf/soft/SLE_15/packages/x86_64/anaconda/2/2019.03/lib/python2.7/site-packages/matplotlib/__init__.py", line 1867, in inner
+    return func(ax, *args, **kwargs)
+  File "/mpcdf/soft/SLE_15/packages/x86_64/anaconda/2/2019.03/lib/python2.7/site-packages/matplotlib/axes/_axes.py", line 1528, in plot
+    for line in self._get_lines(*args, **kwargs):
+  File "/mpcdf/soft/SLE_15/packages/x86_64/anaconda/2/2019.03/lib/python2.7/site-packages/matplotlib/axes/_base.py", line 406, in _grab_next_args
+    for seg in self._plot_args(this, kwargs):
+  File "/mpcdf/soft/SLE_15/packages/x86_64/anaconda/2/2019.03/lib/python2.7/site-packages/matplotlib/axes/_base.py", line 383, in _plot_args
+    x, y = self._xy_from_xy(x, y)
+  File "/mpcdf/soft/SLE_15/packages/x86_64/anaconda/2/2019.03/lib/python2.7/site-packages/matplotlib/axes/_base.py", line 242, in _xy_from_xy
+    "have shapes {} and {}".format(x.shape, y.shape))
+ValueError: x and y must have same first dimension, but have shapes (276,) and (501,)
+ERROR:root:Shotfile not available
+Traceback (most recent call last):
+  File "divertor.py", line 278, in plot_probe_trace
+    probe_traces[prefix + "-" + probe_name] = _ax.plot(x.time, x.data, color=color)[0]
+  File "/mpcdf/soft/SLE_15/packages/x86_64/anaconda/2/2019.03/lib/python2.7/site-packages/matplotlib/__init__.py", line 1867, in inner
+    return func(ax, *args, **kwargs)
+  File "/mpcdf/soft/SLE_15/packages/x86_64/anaconda/2/2019.03/lib/python2.7/site-packages/matplotlib/axes/_axes.py", line 1528, in plot
+    for line in self._get_lines(*args, **kwargs):
+  File "/mpcdf/soft/SLE_15/packages/x86_64/anaconda/2/2019.03/lib/python2.7/site-packages/matplotlib/axes/_base.py", line 406, in _grab_next_args
+    for seg in self._plot_args(this, kwargs):
+  File "/mpcdf/soft/SLE_15/packages/x86_64/anaconda/2/2019.03/lib/python2.7/site-packages/matplotlib/axes/_base.py", line 383, in _plot_args
+    x, y = self._xy_from_xy(x, y)
+  File "/mpcdf/soft/SLE_15/packages/x86_64/anaconda/2/2019.03/lib/python2.7/site-packages/matplotlib/axes/_base.py", line 242, in _xy_from_xy
+    "have shapes {} and {}".format(x.shape, y.shape))
+ValueError: x and y must have same first dimension, but have shapes (276,) and (501,)
+ERROR:root:Shotfile not available
+Traceback (most recent call last):
+  File "divertor.py", line 269, in plot_probe_trace
+    x = get_langmuir_signal(shot, probe_name, signal_type=prefix)
+  File "divertor.py", line 215, in get_langmuir_signal
+    return get_jsat(shot, probe_name)
+  File "divertor.py", line 160, in get_jsat
+    gettem = getsig(shot, 'LSF', 'CH' + str(probe_jsat_channel[probe_name + '-ch']))
+KeyError: 'um8-ch'
+ERROR:root:Error calculating the running mean of[]
+Traceback (most recent call last):
+  File "divertor.py", line 122, in running_mean
+    return np.convolve(x, np.ones((pts,))/pts, mode=mode)
+  File "/mpcdf/soft/SLE_15/packages/x86_64/anaconda/2/2019.03/lib/python2.7/site-packages/numpy/core/numeric.py", line 1112, in convolve
+    raise ValueError('v cannot be empty')
+ValueError: v cannot be empty
+ERROR:root:Shotfile not available
+Traceback (most recent call last):
+  File "divertor.py", line 270, in plot_probe_trace
+    x = post_process(x, mean_pts)
+  File "divertor.py", line 139, in post_process
+    signal.data = running_mean(signal.data, mean_pts)
+  File "divertor.py", line 125, in running_mean
+    six.reraise(*sys.exc_info())
+  File "divertor.py", line 122, in running_mean
+    return np.convolve(x, np.ones((pts,))/pts, mode=mode)
+  File "/mpcdf/soft/SLE_15/packages/x86_64/anaconda/2/2019.03/lib/python2.7/site-packages/numpy/core/numeric.py", line 1112, in convolve
+    raise ValueError('v cannot be empty')
+ValueError: v cannot be empty
+ERROR:root:Error calculating the running mean of[]
+Traceback (most recent call last):
+  File "divertor.py", line 122, in running_mean
+    return np.convolve(x, np.ones((pts,))/pts, mode=mode)
+  File "/mpcdf/soft/SLE_15/packages/x86_64/anaconda/2/2019.03/lib/python2.7/site-packages/numpy/core/numeric.py", line 1112, in convolve
+    raise ValueError('v cannot be empty')
+ValueError: v cannot be empty
+ERROR:root:Shotfile not available
+Traceback (most recent call last):
+  File "divertor.py", line 270, in plot_probe_trace
+    x = post_process(x, mean_pts)
+  File "divertor.py", line 139, in post_process
+    signal.data = running_mean(signal.data, mean_pts)
+  File "divertor.py", line 125, in running_mean
+    six.reraise(*sys.exc_info())
+  File "divertor.py", line 122, in running_mean
+    return np.convolve(x, np.ones((pts,))/pts, mode=mode)
+  File "/mpcdf/soft/SLE_15/packages/x86_64/anaconda/2/2019.03/lib/python2.7/site-packages/numpy/core/numeric.py", line 1112, in convolve
+    raise ValueError('v cannot be empty')
+ValueError: v cannot be empty
+ERROR:root:Shotfile not available
+Traceback (most recent call last):
+  File "divertor.py", line 269, in plot_probe_trace
+    x = get_langmuir_signal(shot, probe_name, signal_type=prefix)
+  File "divertor.py", line 215, in get_langmuir_signal
+    return get_jsat(shot, probe_name)
+  File "divertor.py", line 160, in get_jsat
+    gettem = getsig(shot, 'LSF', 'CH' + str(probe_jsat_channel[probe_name + '-ch']))
+KeyError: 'uia-ch'
+ERROR:root:Shotfile not available
+Traceback (most recent call last):
+  File "divertor.py", line 278, in plot_probe_trace
+    probe_traces[prefix + "-" + probe_name] = _ax.plot(x.time, x.data, color=color)[0]
+  File "/mpcdf/soft/SLE_15/packages/x86_64/anaconda/2/2019.03/lib/python2.7/site-packages/matplotlib/__init__.py", line 1867, in inner
+    return func(ax, *args, **kwargs)
+  File "/mpcdf/soft/SLE_15/packages/x86_64/anaconda/2/2019.03/lib/python2.7/site-packages/matplotlib/axes/_axes.py", line 1528, in plot
+    for line in self._get_lines(*args, **kwargs):
+  File "/mpcdf/soft/SLE_15/packages/x86_64/anaconda/2/2019.03/lib/python2.7/site-packages/matplotlib/axes/_base.py", line 406, in _grab_next_args
+    for seg in self._plot_args(this, kwargs):
+  File "/mpcdf/soft/SLE_15/packages/x86_64/anaconda/2/2019.03/lib/python2.7/site-packages/matplotlib/axes/_base.py", line 383, in _plot_args
+    x, y = self._xy_from_xy(x, y)
+  File "/mpcdf/soft/SLE_15/packages/x86_64/anaconda/2/2019.03/lib/python2.7/site-packages/matplotlib/axes/_base.py", line 242, in _xy_from_xy
+    "have shapes {} and {}".format(x.shape, y.shape))
+ValueError: x and y must have same first dimension, but have shapes (106,) and (501,)
+ERROR:root:Shotfile not available
+Traceback (most recent call last):
+  File "divertor.py", line 278, in plot_probe_trace
+    probe_traces[prefix + "-" + probe_name] = _ax.plot(x.time, x.data, color=color)[0]
+  File "/mpcdf/soft/SLE_15/packages/x86_64/anaconda/2/2019.03/lib/python2.7/site-packages/matplotlib/__init__.py", line 1867, in inner
+    return func(ax, *args, **kwargs)
+  File "/mpcdf/soft/SLE_15/packages/x86_64/anaconda/2/2019.03/lib/python2.7/site-packages/matplotlib/axes/_axes.py", line 1528, in plot
+    for line in self._get_lines(*args, **kwargs):
+  File "/mpcdf/soft/SLE_15/packages/x86_64/anaconda/2/2019.03/lib/python2.7/site-packages/matplotlib/axes/_base.py", line 406, in _grab_next_args
+    for seg in self._plot_args(this, kwargs):
+  File "/mpcdf/soft/SLE_15/packages/x86_64/anaconda/2/2019.03/lib/python2.7/site-packages/matplotlib/axes/_base.py", line 383, in _plot_args
+    x, y = self._xy_from_xy(x, y)
+  File "/mpcdf/soft/SLE_15/packages/x86_64/anaconda/2/2019.03/lib/python2.7/site-packages/matplotlib/axes/_base.py", line 242, in _xy_from_xy
+    "have shapes {} and {}".format(x.shape, y.shape))
+ValueError: x and y must have same first dimension, but have shapes (106,) and (501,)
+WARNING:matplotlib.legend:No handles with labels found to put in legend.
+WARNING:matplotlib.legend:No handles with labels found to put in legend.
+WARNING:matplotlib.legend:No handles with labels found to put in legend.
+WARNING:matplotlib.legend:No handles with labels found to put in legend.
+WARNING:matplotlib.legend:No handles with labels found to put in legend.
+WARNING:matplotlib.legend:No handles with labels found to put in legend.
+WARNING:matplotlib.legend:No handles with labels found to put in legend.
+WARNING:matplotlib.legend:No handles with labels found to put in legend.
+WARNING:matplotlib.legend:No handles with labels found to put in legend.
+WARNING:matplotlib.legend:No handles with labels found to put in legend.
+WARNING:matplotlib.legend:No handles with labels found to put in legend.
